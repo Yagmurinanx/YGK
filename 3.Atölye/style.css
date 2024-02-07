@@ -1,0 +1,56 @@
+* {
+    font-family: 'Times New Roman', Times, serif;
+    font-style: unset;
+    margin: 5px;
+    
+}
+div {
+    background-color: rgba(82, 216, 147, 0.763);
+    width: 400px;
+    height: 400px;
+    margin: 0 auto;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.614);
+    
+}
+
+h2{
+    text-align: center;
+    margin-bottom: 20px;
+    
+}
+
+label{
+    display: block;
+}
+
+input{
+    border-radius: 2rem;
+    border-style: none;
+    background-color: rgba(199, 229, 224, 0.907);
+    cursor: pointer;
+  
+}
+
+button {
+    border-style: none;
+    width: auto;
+    padding: 8px;
+    border-radius: 3px; 
+    margin: 5px;  
+    color: rgb(200, 220, 238); 
+    box-shadow: 0 0 10px rgb(160, 225, 227);
+}
+
+.reset{
+    background-color: rgb(194, 112, 112);
+
+}
+
+
+.submit{
+    background-color: rgba(154, 78, 201, 0.647);
+}
+
+button:hover {
+    opacity: 0.8; 
+}
